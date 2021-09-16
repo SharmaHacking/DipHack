@@ -1,10 +1,10 @@
-SCRIPT BY N17R0 DONT TRY TO COPY OR MODIFY 
+#SCRIPT BY N17R0 DONT TRY TO COPY OR MODIFY 
 #M-WIZ TOOL FOR ALL METASPLOIT THINGS
 #data/data/com.termux/files/usr/bin/bash
 #colours
 check(){
-if wget --spider https://raw.githubusercontent.com/SharmaHacking/m-wiz/master/update.v1.4 2>/dev/null; then
-cd $HOME/DipHack/core/upd
+if wget --spider https://raw.githubusercontent.com/noob-hackers/m-wiz/master/update.v1.4 2>/dev/null; then
+cd $HOME/m-wiz/core/upd
 echo "meta" > update.txt
 else
 echo
@@ -12,8 +12,8 @@ fi
 }
 check
 option(){
-if [ -f "$HOME/SharmaHacking/core/upd/update.txt" ];then
-cd $HOME/DipHack/core/upd
+if [ -f "$HOME/m-wiz/core/upd/update.txt" ];then
+cd $HOME/m-wiz/core/upd
 bash update.sh
 else
 echo " "
@@ -21,8 +21,8 @@ fi
 }
 option
 check1(){
-if wget --spider https://raw.githubusercontent.com/SharmaHackings/patchupdateznh/main/m-wiz.v.1 2>/dev/null; then
-cd $HOME/SharmaHacking/core/upd
+if wget --spider https://raw.githubusercontent.com/noob-hackers/patchupdateznh/main/m-wiz.v.1 2>/dev/null; then
+cd $HOME/m-wiz/core/upd
 echo "meta" > patch.txt
 else
 echo
@@ -56,11 +56,12 @@ ____  _       _   _            _
 | |_| | | |_) |  _  | (_| | (__|   <
 |____/|_| .__/|_| |_|\__,_|\___|_|\_\
         |_|
+
 v 1.3$rset"
 echo " "                                                          
-echo -e "$red                                ▶ Coded by$grn YOGESH$red ◀$rset"
+echo -e "$red                                ▶ Coded by$grn Yogesh$red ◀$rset"
 echo -e "$red                                ⫸$ylo  Sharma Hacking $red ⫷$rset"
-echo -e "$red                          ⫸$grn  github.com/SharmaHacking $red⫷$rset"
+echo -e "$red                          ⫸$grn  termuxbysharmaji.blogspot.com $red⫷$rset"
 echo " "
 echo " "
 echo -e "$pink                       >>>  [ click ENTER to continue ] <<<$rset"
@@ -396,9 +397,3 @@ echo " "
 echo " "
 exit 1
 esac;
-
-
-
-
-
-
